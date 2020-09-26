@@ -1,3 +1,7 @@
+//bigO of mergeSort
+//time complexity: O(n log n)
+//space complexity: O(n)
+
 //iterative mergesort
 function merge(arr1, arr2) {
   let results = [];
@@ -23,7 +27,7 @@ function merge(arr1, arr2) {
   return results;
 }
 
-// Recrusive Merge Sort
+// Recursive Merge Sort
 function mergeSort(arr) {
   if (arr.length <= 1) return arr;
   let mid = Math.floor(arr.length / 2);
